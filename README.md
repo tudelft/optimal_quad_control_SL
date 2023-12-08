@@ -1,4 +1,4 @@
-# quad_SL
+# optimal_quad_control_SL
 End-to-end optimal quadcopter control through Supervised Learning
 
 **Notebooks**
