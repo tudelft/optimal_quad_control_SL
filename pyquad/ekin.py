@@ -49,9 +49,9 @@ __control_cmap_vals = {key: [(val1, val2, val2) for val1,val2 in zip([0.0, 1.0],
     np.transpose(__control_cmap_vals)
 )}
 
-matplotlib.cm.register_cmap(name='spatial_vars', data=__spatial_cmap_vals, lut=1024)
-matplotlib.cm.register_cmap(name='temporal_vars', data=__temporal_cmap_vals, lut=1024)
-matplotlib.cm.register_cmap(name='control_vars', data=__control_cmap_vals, lut=1024)
+# matplotlib.cm.register_cmap(name='spatial_vars', data=__spatial_cmap_vals, lut=1024)
+# matplotlib.cm.register_cmap(name='temporal_vars', data=__temporal_cmap_vals, lut=1024)
+# matplotlib.cm.register_cmap(name='control_vars', data=__control_cmap_vals, lut=1024)
 
 # matplotlib.use('agg') # allow importing within shell
 import matplotlib.pyplot as plt
